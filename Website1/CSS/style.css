@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  color: #fff;
+}
+
+/* Backgrounds per page */
+#home-page {
+  background: url("../Images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#products-page {
+  background: url("../Images/products.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#bookings-page {
+  background: url("../Images/booking.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#contact-page {
+  background: url("../Images/contact.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header & Navigation */
+header {
+  background: rgba(0, 119, 182, 0.8);
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: #00b894;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
